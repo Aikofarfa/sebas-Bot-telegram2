@@ -41,7 +41,7 @@ SLEEP_SECONDS = 60
 
 # Inicializar Binance (solo datos públicos)
 exchange_options = {
-    'enableRateLimit': False,
+    'enableRateLimit': True,
 }
 if TESTNET:
     exchange_options['urls'] = {'api': {'public': 'https://testnet.binance.vision/api'}}
@@ -133,11 +133,9 @@ while True:
                 print(f"{datetime.now().strftime('%H:%M:%S')} → Sin señal nueva")
     except Exception as e:
         print(f"Error en bucle principal: {e}")
-        #linea de prueba temporal
-     enviar mensaje(''el bot esta vivo y funcionando correctamente! prueba exitosa.´´)
-    
 
     time.sleep(60)
+
 
 
 

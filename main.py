@@ -25,7 +25,7 @@ FAST_MA_PERIOD = 9
 SLOW_MA_PERIOD = 21
 
 TELEGRAM_TOKEN = "TU_BOT_TOKEN_AQUÍ"          # ¡cámbialo por el real!
-TELEGRAM_CHAT_ID = "TU_CHAT_ID_AQUÍ"          # ¡cámbialo por el real!
+TELEGRAM_CHAT_ID = "8576880914"          # ¡cámbialo por el real!
 
 SLEEP_SECONDS = 60
 
@@ -120,3 +120,4 @@ while True:
     enviar_mensaje("✅ BOT FUNCIONANDO CORRECTAMENTE\nPrueba de conexión exitosa\nHora: " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
 
     time.sleep(60)
+
